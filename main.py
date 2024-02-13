@@ -7,7 +7,7 @@ bot=telebot.TeleBot(token=bot_token)
 aruzhan_id="805798099"
 miras_id="894349873"
 def is_aruzhan(user_id):
-    return str(user_id) == miras_id
+    return str(user_id) == aruzhan_id
 
 @bot.message_handler(commands=["start"])
 def hello(message):
